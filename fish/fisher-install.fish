@@ -1,0 +1,4 @@
+#!/bin/sh
+
+fisher install
+

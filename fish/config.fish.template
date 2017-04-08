@@ -1,0 +1,15 @@
+set -x EDITOR emacs
+set -x HOMEBREW_GITHUB_API_TOKEN ${HOMEBREW_GITHUB_API_TOKEN}
+
+alias dc docker-compose
+alias fig docker-compose
+alias gits 'git s'
+alias gulp node_modules/.bin/gulp
+alias e 'emacsclient -nw $1'
+
+function fish_user_key_bindings
+    bind \cx\cr peco_recentd
+    bind \cx\cg peco_select_ghq_repository
+    bind \cr peco_select_history (commandline -b)
+end
+

@@ -1,0 +1,6 @@
+completions
+conf.d
+config.fish
+fish_history
+fishd.*
+functions
