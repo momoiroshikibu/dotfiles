@@ -1,4 +1,4 @@
-set -x EDITOR emacs
+set -x EDITOR emacsclient
 set -x HOMEBREW_GITHUB_API_TOKEN ${HOMEBREW_GITHUB_API_TOKEN}
 
 alias dc docker-compose
