@@ -24,3 +24,7 @@ end
 function peco
     command peco --layout=bottom-up $argv
 end
+
+function ipaddress
+    ifconfig en0 | grep 'inet ' | awk '{print $2}'
+end
