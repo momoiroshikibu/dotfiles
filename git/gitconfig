@@ -1,0 +1,9 @@
+[user]
+        name = momoiroshikibu
+        email = momoiroshikibu@gmail.com
+[core]
+        editor = emacs
+[alias]
+        d = diff
+        l = log
+        s = status
