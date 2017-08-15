@@ -1,6 +1,4 @@
 set -x EDITOR emacsclient
-set -x HOMEBREW_GITHUB_API_TOKEN ${HOMEBREW_GITHUB_API_TOKEN}
-
 set -x PATH $HOME/.nodebrew/current/bin \
         $HOME/.roswell/bin \
         $PATH

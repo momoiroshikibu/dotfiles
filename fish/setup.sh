@@ -17,9 +17,3 @@ curl -Lo ./functions/fisher.fish --create-dirs git.io/fisher
 
 # install plugins
 fish fisher-install.fish
-
-
-# create config.fish from template.
-# HOMEBREW_GITHUB_API_TOKEN => from prompt
-read -s -p 'HOMEBREW_GITHUB_API_TOKEN: ' homebrew_github_api_token;
-cat config.fish.template | sed -e s/\$\{HOMEBREW_GITHUB_API_TOKEN\}/$homebrew_github_api_token/g > config.fish
